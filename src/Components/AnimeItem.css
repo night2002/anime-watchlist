@@ -1,0 +1,124 @@
+.base-style{
+    padding:3rem 18rem;
+    background-color: #EDEDED;
+    
+
+}
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background:linear-gradient(to right,#A855F7,#27AE60);
+    -webkit-background-clip:text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease-in-out;
+
+}
+h1:hover{
+    transform: skew(-10deg);
+}
+.title{
+    display: inline-block;
+    margin: 3rem 0;
+    font-size: 2rem;
+    cursor: pointer;
+    background:linear-gradient(to right, #A855F7 23%,#27AE60);
+    -webkit-background-clip:text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description{
+    margin-top: 2rem;
+    color: #6c7983;
+    line-height: 1.7rem;
+    
+}
+.button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #27AE60;
+    font-weight: 600;
+}
+.trailer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe{
+    outline: none;
+    border: 5px solid #e5e7eb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.details{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    border: 5px solid #e5e7eb;
+}
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+img{
+    border-radius: 7px;
+}
+.anime-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.p{
+    display: flex;
+    gap: 1rem;
+}
+.characters{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 5px solid #e5e7eb;
+
+}
+.character{
+    padding: .4rem .6rem;
+    border-radius: 7px;
+    background-color: #EDEDED;
+    transition: all .4s ease-in-out;
+}
+.character:hover{
+    transform: translateY(-5px);
+}
+.h4{
+    padding: .5rem 0;
+    color: #454e56;
+
+}
+.p1{
+    color: #27AE60;
+
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
