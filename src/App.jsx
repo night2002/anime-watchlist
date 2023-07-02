@@ -8,9 +8,9 @@ function App(){
   return(
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Homepage/>}/>
-      <Route path="/anime/:id"element={<AnimeItem/>}/>
-      <Route path="/character/:id" element={<Gallery/>}/>
+      <Route path="/anime-watchlist/" element={<Homepage/>}/>
+      <Route path="/anime-watchlist/anime/:id"element={<AnimeItem/>}/>
+      <Route path="/anime-watchlist/character/:id" element={<Gallery/>}/>
     </Routes>
     </BrowserRouter>
   )
