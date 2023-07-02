@@ -74,7 +74,7 @@ export default function AnimeItem() {
             {characters?.map((character,index)=>{
                 const {role} = character
                 const {images,name,mal_id} = character.character
-                return <Link to={`/character/${mal_id}`} key={index}>
+                return <Link to={`/anime-watchlist/character/${mal_id}`} key={index}>
                     <div className="character">
                         <img src={images?.jpg.image_url} alt=""/>
                         <h4 className='h4'>{name}</h4>

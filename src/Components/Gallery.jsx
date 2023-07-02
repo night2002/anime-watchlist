@@ -19,7 +19,7 @@ export default function Gallery() {
   return (
     <div className='gallery-style'>
       <div>
-        <Link className="back"to="/">Back</Link>
+        <Link className="back"to="/anime-watchlist/">Back</Link>
       </div>
       <div className="big-image">
         <img className='img' src={pictures[index]?.jpg.image_url} alt=''/>
