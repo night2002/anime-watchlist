@@ -1,7 +1,7 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Popular from "./Components/Popular";
 import AnimeItem from "./Components/AnimeItem";
-import Homepage from "./Components/HomePage";
+import Homepage from "./Components/Homepage";
 import Gallery from "./Components/Gallery";
 
 function App(){
